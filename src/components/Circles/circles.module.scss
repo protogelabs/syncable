@@ -1,0 +1,27 @@
+$big: 500px;
+$small: 350px;
+
+@mixin circle {
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle1{
+    background-color: var(--pink);
+    width: $big;
+    height: $big;
+    left: -50%;
+    bottom: -200px;
+    z-index: 10;
+    @include circle;
+}
+
+.circle2 {
+    background-color: var(--red);
+    @include circle;
+    width: $small;
+    height: $small;
+    z-index: 5;
+    right: -50%;
+    bottom: -175px;
+}
