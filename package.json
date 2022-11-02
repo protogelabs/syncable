@@ -11,9 +11,11 @@
   "dependencies": {
     "@capacitor/core": "^4.4.0",
     "firebase": "^9.13.0",
+    "node-sass": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-firebase-hooks": "^5.0.3"
+    "react-firebase-hooks": "^5.0.3",
+    "sass": "^1.55.0"
   },
   "devDependencies": {
     "@capacitor/cli": "^4.4.0",
