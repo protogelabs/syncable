@@ -6,6 +6,12 @@ $small: 350px;
     position: absolute;
 }
 
+.container{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
 .circle1{
     background-color: var(--pink);
     width: $big;
@@ -25,3 +31,13 @@ $small: 350px;
     right: -50%;
     bottom: -175px;
 }
+.circle3{
+    background-color: var(--pink);
+    width: $big;
+    height: $big;
+    left: -50%;
+    top: -200px;
+    z-index: 10;
+    @include circle;
+}
+
