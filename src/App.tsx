@@ -7,13 +7,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <BackgroundCircles>
+    <BackgroundCircles>
 
-        <Button text="Hello"/>
-      </BackgroundCircles>
-
-    </div>
+      <Button text="Hello"/>
+    </BackgroundCircles>
   )
 }
 

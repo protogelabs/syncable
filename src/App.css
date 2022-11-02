@@ -2,3 +2,7 @@
   --pink: #F0B7B3;
   --red: #D7263D;
 }
+
+body{
+  height: 100vh;
+}
