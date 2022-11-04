@@ -3,21 +3,26 @@ $small: 350px;
 
 @mixin circle {
     border-radius: 50%;
-    position: absolute;
+    position: fixed;
 }
 
 .container{
     overflow: hidden;
     width: 100%;
     height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .circle1{
     background-color: var(--pink);
     width: $big;
     height: $big;
-    left: -50%;
-    bottom: -200px;
+    left: -60%;
+    bottom: -270px;
     z-index: 10;
     @include circle;
 }
@@ -29,14 +34,14 @@ $small: 350px;
     height: $small;
     z-index: 5;
     right: -50%;
-    bottom: -175px;
+    bottom: -200px;
 }
 .circle3{
     background-color: var(--pink);
     width: $big;
     height: $big;
     left: -50%;
-    top: -200px;
+    top: -300px;
     z-index: 10;
     @include circle;
 }
