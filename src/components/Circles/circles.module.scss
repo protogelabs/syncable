@@ -36,13 +36,23 @@ $small: 350px;
     right: -50%;
     bottom: -200px;
 }
+
 .circle3{
     background-color: var(--pink);
     width: $big;
     height: $big;
-    left: -50%;
+    right: -70%;
     top: -300px;
     z-index: 10;
     @include circle;
 }
 
+.circle4 {
+    @include circle;
+    background-color: #585e6734;
+    width: 600px;
+    height: 600px;
+    z-index: 1;
+    right: -60%;
+    bottom: -20px;
+}
