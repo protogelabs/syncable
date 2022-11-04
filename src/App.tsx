@@ -3,8 +3,10 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import { BackgroundCircles, Button } from './components'
 
+import { useTheme } from './hooks/useTheme'
+
 function App() {
-  const [count, setCount] = useState(0)
+  const [resolvedTheme, toggleTheme] = useTheme('dark')
 
   return (
     <BackgroundCircles>
