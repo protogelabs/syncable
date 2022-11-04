@@ -7,8 +7,7 @@ $small: 350px;
 }
 
 .container{
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow: hidden;
     width: 100%;
     height: 100%;
     position: fixed;
