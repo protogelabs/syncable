@@ -3,6 +3,19 @@
   --red: #D7263D;
 }
 
+
+
 body{
   height: 100vh;
+  margin: 0;
+}
+
+/* Theme Styling : will arrange properly later */
+body[theme="dark"] {
+  background-color: #121212;
+  color: #fff;
+}
+
+#root {
+  height: 100%;
 }
