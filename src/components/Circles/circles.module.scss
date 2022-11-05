@@ -4,6 +4,7 @@ $small: 350px;
 @mixin circle {
     border-radius: 50%;
     position: fixed;
+    overflow: hidden;
 }
 
 .container{
@@ -22,7 +23,7 @@ $small: 350px;
     width: $big;
     height: $big;
     left: -60%;
-    bottom: -270px;
+    bottom: -170px;
     z-index: 10;
     @include circle;
 }
@@ -33,16 +34,16 @@ $small: 350px;
     width: $small;
     height: $small;
     z-index: 5;
-    right: -50%;
-    bottom: -200px;
+    right: -40%;
+    bottom: -150px;
 }
 
 .circle3{
     background-color: var(--pink);
-    width: $big;
-    height: $big;
-    right: -70%;
-    top: -300px;
+    width: $small;
+    height: $small;
+    right: -40%;
+    top: -130px;
     z-index: 10;
     @include circle;
 }
@@ -50,9 +51,9 @@ $small: 350px;
 .circle4 {
     @include circle;
     background-color: #585e6734;
-    width: 600px;
-    height: 600px;
+    width: 37.5em;
+    height: 37.5em;
     z-index: 1;
-    right: -60%;
-    bottom: -20px;
+    right: -50%;
+    bottom: 5em;
 }
