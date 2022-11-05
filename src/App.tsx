@@ -7,7 +7,7 @@ import { useTheme } from './hooks/useTheme'
 import { Routes, Route } from 'react-router-dom';
 
 //Page Imports
-import { OnboardingPage } from './pages';
+import { OnboardingPage, Loading, GetStartedPage } from './pages';
 
 function App() {
   const [resolvedTheme, toggleTheme] = useTheme('dark')
@@ -15,6 +15,11 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<OnboardingPage/>} />
+      <Route path='/loading' element={
+        <div className='flex'>
+          <Loading />
+        </div>
+      } />
     </Routes>
   )
 }
