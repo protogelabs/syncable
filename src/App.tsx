@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
-import { BackgroundCircles, Button } from './components'
+import { BackgroundCircles, Button,Words } from './components'
 
 import { useTheme } from './hooks/useTheme'
 
@@ -11,7 +10,7 @@ function App() {
   return (
     <BackgroundCircles>
 
-      <Button text="Hello"/>
+      <Words/>
     </BackgroundCircles>
   )
 }
