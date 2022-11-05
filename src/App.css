@@ -1,6 +1,7 @@
 :root {
   --pink: #F0B7B3;
   --red: #D7263D;
+  --primary: #60cd99;
 }
 
 
@@ -18,4 +19,8 @@ body[theme="dark"] {
 
 #root {
   height: 100%;
+}
+
+.text-primary {
+  color: var(--primary);
 }
