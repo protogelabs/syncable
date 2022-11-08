@@ -1,11 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import { BackgroundCircles, Button,Words } from './components'
-
+//hooks import
 import { useTheme } from './hooks/useTheme'
-
+//routes
 import { Routes, Route } from 'react-router-dom';
-
 //Page Imports
 import { OnboardingPage, Loading, GetStartedPage } from './pages';
 
