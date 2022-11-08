@@ -45,35 +45,30 @@
 
 .dot {
   margin-left: 5px;
-  animation: move alternate 2s ease-out;
+  animation: move infinite 1s ease-out;
 }
 
-.dot:nth-child(1) {
-  animation-delay: 1s;
-}
 
 .dot:nth-child(2) {
-  animation: move alternate 2s ease-out;
-  animation-delay: 3s;
+animation-delay: 0.3s;
 }
 
 .dot:nth-child(3) {
-  animation: move alternate 2s ease-out;
-  animation-delay: 6s;
+animation-delay: 0.6s;
 }
 
 
 @keyframes move {
   0% {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 
   50% {
-    transform: translateX(50px) translateY(-20px);
+    transform: translateY(-10px);
   }
 
   100% {
-    transform: translateX(50px) translateY(0);
+    transform: translateY(0);
   }
 
 }
