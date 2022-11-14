@@ -45,7 +45,7 @@
 
 .dot {
   margin-left: 5px;
-  animation: move alternate 2s ease-out;
+  animation: move alterna 2s ease-out;
 }
 
 .dot:nth-child(1) {
@@ -65,15 +65,15 @@
 
 @keyframes move {
   0% {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 
-  50% {
-    transform: translateX(50px) translateY(-20px);
-  }
+
 
   100% {
-    transform: translateX(50px) translateY(0);
+    transform:  translateY(-15px);
   }
 
 }
+
+

@@ -11,9 +11,9 @@ export const Loading: any = () => {
 
       <div className={styles.load}>
 
-        <div className={styles.dot}></div>
-        <div className={styles.dot}></div>
-        <div className={styles.dot}></div>
+        <div className={styles.dot} id="dot-1"></div>
+        <div className={styles.dot} id="dot-2"></div>
+        <div className={styles.dot} id="dot-3"></div>
       </div>
     </div>
   )
