@@ -1,7 +1,9 @@
 import styles from './loading.module.scss'
 import logo from '../../assets/loading.svg'
 
+
 export const Loading: React.FC = () => {
+
   return (
     <div className={styles.textcolor} >
 
