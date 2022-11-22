@@ -18,7 +18,7 @@
 
 $btn-shadow: darken($color: #60cd99, $amount: 2);
 
-.uploadBtn{
+.uploadBtn {
     border-radius: 50%;
     width: 90px;
     height: 90px;
@@ -33,5 +33,11 @@ body[theme="dark"] {
 
     .tabs {
         background-color: #333333;
+    }
+}
+body[theme="light"] {
+
+    .tabs {
+        box-shadow: 10px 10px 20px  #333333;
     }
 }
