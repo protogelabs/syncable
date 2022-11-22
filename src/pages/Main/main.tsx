@@ -7,7 +7,12 @@ export const MainLayout: React.FC = () => {
     return(
         <>
            <Pfp />
-            <Ongoingclass />
+            <Ongoingclass
+            coursecode= 'sen201'
+            course= 'intro to software engineering'
+            theme="orange"
+            location="online"
+            />
             <Outlet/>
             <Tabs/>
         </>
