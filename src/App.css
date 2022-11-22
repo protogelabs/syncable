@@ -30,3 +30,22 @@ body[theme="dark"] {
 .text-primary {
   color: var(--primary);
 }
+
+/* Custom Font */
+@font-face {
+  font-family: 'Biko';
+  src: url('./assets/fonts/Biko_Regular.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Biko';
+  src: url('./assets/fonts/Biko_Bold.otf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Biko';
+  src: url('./assets/fonts/Biko_Light-Restricted.otf');
+  font-weight: 200;
+}
