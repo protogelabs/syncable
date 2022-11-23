@@ -8,15 +8,18 @@ interface Ongoingclassprop {
     location?: string,
 }
 
-export const Ongoingclass: React.FC<Ongoingclassprop> = ({coursecode,course,theme,location}) => {
+export const Ongoingclass: React.FC<Ongoingclassprop> = ({ coursecode, course, theme, location }) => {
     return (
         <div className={style.container}>
             <section className={style.recentclass}>
-                <div className={style.line} style={{backgroundColor: `${theme}`}}></div>
+                <div className={style.line} style={{ backgroundColor: `${theme}` }}></div>
+                
                 <div className={style.info}>
                     <p>ongoing class</p>
                     <h6>{coursecode}</h6>
-                    <p> {course}-{location}</p>
+                    <div className={style.container1}>
+                        <p> {course}-{location}</p>
+                    </div>
                 </div>
             </section>
         </div>
