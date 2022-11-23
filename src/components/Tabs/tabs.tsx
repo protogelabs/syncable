@@ -10,8 +10,8 @@ export const Tabs: React.FC = () => {
     const navigate = useNavigate();
 
     //Icons
-    const HomeIcon = location.pathname === 'main/home' ? <MdHome size={20}/> : <MdOutlineHome size={40}/>
-    const SettingsIcon = location.pathname === '/main/settings' ? <MdSettings size={20}/> : <MdOutlineSettings size={40}/>
+    const HomeIcon = location.pathname === '/main/home' ? <MdHome size={40}/> : <MdOutlineHome size={40}/>
+    const SettingsIcon = location.pathname === '/main/settings' ? <MdSettings size={40}/> : <MdOutlineSettings size={40}/>
 
     return(
         <div className={styles.tabs}>
