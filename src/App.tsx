@@ -20,7 +20,10 @@ function App() {
       } />
 
       <Route path='/main' element={<MainLayout/>}>
-        <Route index path='home' element={<HomePage/>} />
+        <Route path='home' element={<HomePage/>}>
+          <Route path='class' element={<div>class</div>}/>
+          <Route path='time-table' element={<div>time-table</div>}/>
+        </Route>
       </Route>
     </Routes>
   )
