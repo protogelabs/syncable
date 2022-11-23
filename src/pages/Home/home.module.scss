@@ -1,0 +1,28 @@
+.segment {
+    width: 80%;
+    height: 65px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+
+    span {
+        width: 50%;
+        height: 100%;
+        border-radius: 10px;
+    }
+}
+
+.active {
+    background-color: #60cd99;
+}
+
+
+body[theme="dark"] {
+    .segment {
+        background-color: #2f2f2f;
+    }
+}
