@@ -1,4 +1,4 @@
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate, } from "react-router-dom";
 import styles from "./tabs.module.scss";
 
 import { MdOutlineHome, MdOutlineSettings, MdHome, MdSettings, MdUploadFile } from "react-icons/md"
