@@ -12,10 +12,10 @@ export const HomePage: React.FC = () => {
         <main>
             <AppHeader avatarSrc={avatar} />
             <Ongoingclass
-                coursecode= 'sen201'
-                course= 'intro to software engineering'
-                theme="orange"
-                location="online"
+                coursecode= 'SEN 201'
+                course= 'Intro to Software Engineering'
+                theme="#60cd99"
+                location="Online"
             />
 
             <div className={styles.segment}>
