@@ -15,7 +15,7 @@ export const Ongoingclass: React.FC<Ongoingclassprop> = ({ coursecode, course, t
                 <div className={style.line} style={{ backgroundColor: `${theme}` }}></div>
                 
                 <div className={style.info}>
-                    <p>ongoing class</p>
+                    <p>Ongoing Class</p>
                     <h6>{coursecode}</h6>
                     <div className={style.container1}>
                         <p> {course}-{location}</p>
