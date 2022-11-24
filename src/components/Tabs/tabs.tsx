@@ -10,7 +10,7 @@ export const Tabs: React.FC = () => {
     const navigate = useNavigate();
 
     //Icons
-    const HomeIcon = location.pathname === '/main/home' ? <MdHome size={40}/> : <MdOutlineHome size={40}/>
+    const HomeIcon = location.pathname.includes('/main/home/') ? <MdHome size={40}/> : <MdOutlineHome size={40}/>
     const SettingsIcon = location.pathname === '/main/settings' ? <MdSettings size={40}/> : <MdOutlineSettings size={40}/>
 
     return(
