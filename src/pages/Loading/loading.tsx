@@ -5,17 +5,16 @@ import logo from '../../assets/loading.svg'
 export const Loading: React.FC = () => {
 
   return (
-    <div className={styles.textcolor} >
+    <div className={styles.loadingPage}>
 
+      <img src={logo} className={styles.img} alt="syncable-logo" />
+      
+      <p>Syncable</p>
 
-      <img src={logo} className={styles.img} alt="t" />
-      Syncable
-
-      <div className={styles.load}>
-
-        <div className={styles.dot} id="dot-1"></div>
-        <div className={styles.dot} id="dot-2"></div>
-        <div className={styles.dot} id="dot-3"></div>
+      <div className={styles.loading}>
+        <span className={styles.dot} id="dot-1"></span>
+        <span className={styles.dot} id="dot-2"></span>
+        <span className={styles.dot} id="dot-3"></span>
       </div>
     </div>
   )
