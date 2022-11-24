@@ -1,5 +1,3 @@
-$big: 500px;
-$small: 350px;
 
 @mixin circle {
     border-radius: 50%;
@@ -19,9 +17,11 @@ $small: 350px;
 }
 
 .circle1{
+    --big: 31.25rem;
+
     background-color: var(--pink);
-    width: $big;
-    height: $big;
+    width: var(--big);
+    height: var(--big);
     left: -60%;
     bottom: -170px;
     z-index: 10;
@@ -29,19 +29,23 @@ $small: 350px;
 }
 
 .circle2 {
+    --small: 21.875rem;
+
     background-color: var(--red);
     @include circle;
-    width: $small;
-    height: $small;
+    width: var(--small);
+    height: var(--small);
     z-index: 5;
     right: -40%;
-    bottom: -150px;
+    bottom: -9.375rem;
 }
 
 .circle3{
+    --small: 21.875rem;
+
     background-color: var(--pink);
-    width: $small;
-    height: $small;
+    width: var(--small);
+    height: var(--small);
     right: -40%;
     top: -130px;
     z-index: 10;
@@ -49,11 +53,41 @@ $small: 350px;
 }
 
 .circle4 {
+    --extra-big: 37.5rem;
+
     @include circle;
     background-color: #585e6734;
-    width: 37.5em;
-    height: 37.5em;
+    width: var(--extra-big);
+    height: var(--extra-big);
     z-index: 1;
     right: -50%;
     bottom: 5em;
+}
+
+@media screen and (max-width: 345px){
+    .circle1 {
+        --big: 28rem;
+    }
+
+    .circle3 {
+        top: -180px;
+    }
+
+    .circle4 {
+        --extra-big: 31rem;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 450px) {
+    .circle1 {
+        --big: 35rem;
+    }
+
+    .circle2, .circle3 {
+        --small: 25rem;
+    }
+
+    .circle4 {
+        --extra-big: 44rem;
+    }
 }

@@ -19,7 +19,11 @@ export const OnboardingPage: React.FC = () => {
     }, [])
 
     if(isLoading) {
-        return <Loading/>
+        return (
+            <div className='flex'>
+                <Loading/>
+            </div>
+        ) 
     }
     return(
         <Swiper className={styles.swiperContainer}>

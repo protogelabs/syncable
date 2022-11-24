@@ -64,3 +64,28 @@
         }
     }
 }
+@media screen and (max-width: 345px){
+    .getStartedContainer {
+        gap: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 450px) {
+
+    .getStartedContainer {
+        gap: 6rem;
+
+        article {
+            h3{
+                font-size: 1.6rem;
+                span { 
+                    font-size: 2.5rem;
+                }
+            }
+            p {
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+}
