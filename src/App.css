@@ -55,3 +55,16 @@ body[theme="dark"] {
   src: url('./assets/fonts/Biko_Light-Restricted.otf');
   font-weight: 200;
 }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat-Regular.ttf');
+  font-weight: 400;
+}
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat-Medium.ttf');
+  font-weight: 500;
+}

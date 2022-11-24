@@ -15,7 +15,7 @@ export const Tabs: React.FC = () => {
 
     return(
         <div className={styles.tabs}>
-            <div className={styles.tabButton}>
+            <div className={styles.tabButton} onClick={() => navigate('/main/home')}>
                 {HomeIcon}
             </div>
             <div className={styles.tabButton}>
